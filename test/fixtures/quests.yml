@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  question: MyText
+  starter_code: MyString
+  doubloon: 1
+  xp: 1
+  img_url: MyString
+  sample_input: MyString
+  sample_output: MyString
+
+two:
+  title: MyString
+  question: MyText
+  starter_code: MyString
+  doubloon: 1
+  xp: 1
+  img_url: MyString
+  sample_input: MyString
+  sample_output: MyString
