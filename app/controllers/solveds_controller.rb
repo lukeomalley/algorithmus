@@ -1,2 +1,0 @@
-class SolvedsController < ApplicationController
-end
