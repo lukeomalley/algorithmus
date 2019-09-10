@@ -19,7 +19,7 @@ gem 'puma', '~> 3.11'
 gem 'bcrypt', '~> 3.1.7'
 
 # Use JWT for user auth
-gem 'jwt'
+gem 'jwt', '~> 2.1'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
