@@ -3,7 +3,7 @@
 Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
-      get '/profile', to: 'users#show'
+      get '/profile', to: 'user#show'
       post '/login', to: 'auth#create'
       resources :lockers
       resources :items
