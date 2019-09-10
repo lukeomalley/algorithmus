@@ -8,7 +8,6 @@ class Api::V1::AuthController < ApplicationController
       token = encode(user_id: @user.id)
       render json: {
         authenticated: true,
-        message: 'You are logging in...',
         user: @user,
         token: token
       }, status: :accepted
