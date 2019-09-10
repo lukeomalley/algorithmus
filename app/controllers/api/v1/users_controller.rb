@@ -8,7 +8,7 @@ class Api::V1::UsersController < ApplicationController
 
   def create
     user = User.new(username: params[:username], password: params[:password])
-    if user.save!
+    if user.save
       token = encode(user_id: user.id)
       render json: {
         authenticated: true,
