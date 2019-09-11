@@ -8,7 +8,7 @@ Rails.application.routes.draw do
       post '/signup', to: 'users#create'
       resources :lockers
       resources :items
-      resources :solveds
+      resources :solved_quests
       resources :users
       resources :quests
     end
