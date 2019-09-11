@@ -106,18 +106,18 @@ Quest.create(
 #===============================================
 # Users
 #===============================================
-User.create(username: 'Kstarr', password: 'test', doubloon: 100, xp: 800, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
-User.create(username: 'OMalleyTown', password: 'test', doubloon: 100, xp: 800, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
-User.create(username: 'SickRuggz', password: 'test', doubloon: 100, xp: 800, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
-User.create(username: 'jDawg', password: 'test', doubloon: 100, xp: 800, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
-User.create(username: 'helmy', password: 'test', doubloon: 100, xp: 800, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
-User.create(username: 'mageSage', password: 'test', doubloon: 100, xp: 800, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
-User.create(username: 'tRob', password: 'test', doubloon: 100, xp: 800, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
-User.create(username: 'candyKane', password: 'test', doubloon: 100, xp: 800, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
-User.create(username: 'MCAT', password: 'test', doubloon: 100, xp: 800, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
-User.create(username: 'cakeMaker', password: 'test', doubloon: 100, xp: 800, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
-User.create(username: 'cheenay', password: 'test', doubloon: 100, xp: 800, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
-User.create(username: 'luke', password: 'luke', doubloon: 100, xp: 800, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
+User.create(username: 'Kstarr', password: 'test', doubloon: 1000, xp: 100, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
+User.create(username: 'OMalleyTown', password: 'test', doubloon: 1000, xp: 100, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
+User.create(username: 'SickRuggz', password: 'test', doubloon: 1000, xp: 100, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
+User.create(username: 'jDawg', password: 'test', doubloon: 1000, xp: 100, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
+User.create(username: 'helmy', password: 'test', doubloon: 1000, xp: 100, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
+User.create(username: 'mageSage', password: 'test', doubloon: 1000, xp: 100, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
+User.create(username: 'tRob', password: 'test', doubloon: 1000, xp: 100, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
+User.create(username: 'candyKane', password: 'test', doubloon: 1000, xp: 100, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
+User.create(username: 'MCAT', password: 'test', doubloon: 1000, xp: 100, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
+User.create(username: 'cakeMaker', password: 'test', doubloon: 1000, xp: 100, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
+User.create(username: 'cheenay', password: 'test', doubloon: 1000, xp: 100, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
+User.create(username: 'luke', password: 'luke', doubloon: 1000, xp: 100, avatar_url: 'https://forums.opera.com/assets/uploads/profile/192104-profileavatar.png')
 
 #===============================================
 # ITEMS
