@@ -17,65 +17,90 @@ Item.destroy_all
 #===============================================
 
 Quest.create(
-  title: 'Fibonacci Sequence',
-  question: "Given a number greater than 1, develop a function that returns that number's index position in the fibboncci sequence",
-  starter_code: 'function fib(n) {}',
-  doubloon: 20,
-  xp: 100,
+  title: 'Fibonacci Number',
+  question: "Given a number 'n', write a function that computes the Nth fibonacci number",
+  starter_code: '//write your answer in the function below\n function fib(n) {\n}',
+  markdown_details: 'fib.md',
   img_url: 'fib.svg',
-  sample_input: 'x',
-  sample_output: 'y'
+  doubloon: 200,
+  xp: 100,
+  sample_input: '8',
+  sample_output: '21',
+  test_input: '10',
+  test_output: 55,
+  function_name: 'fib'
 )
 
 Quest.create(
   title: 'Paperfold Sequence',
-  question: 'Given an array of [1], write a function that will generate the paperfold sequence to a max iteration of 100',
-  starter_code: 'function paperfold() {}',
+  question: 'Given an integer n, write a function that will return the Nth paperfold sequence',
+  starter_code: '//write your answer in the function below\n function paperfold() {\n}',
+  markdown_details: 'paperfold.md',
+  img_url: 'paperfold.svg',
   doubloon: 60,
   xp: 1240,
-  img_url: 'paperfold.svg',
-  sample_input: 'x',
-  sample_output: 'y'
+  sample_input: '3',
+  sample_output: '[1,1,0,1,1,0,0,1,1,1,0,0,1,0,0]',
+  test_input: '4',
+  test_output: '[1,1,0,1,1,0,0,1,1,1,0,0,1,0,0,1,1,1,0,1,1,0,0,0,1,1,0,0,1,0,0]',
+  function_name: 'paperfold'
 )
 
 Quest.create(
   title: 'Unique String',
-  quesion: 'Given a string, write a function to determine wether or not it has all unique characters',
-  starter_code: 'function isUnique(str) {}',
+  question: 'Given a string, write a function that returns true if all of its characters are unique, otherwise return false.',
+  starter_code: '//write your answer in the function below\n function isUnique(str) {\n}',
+  markdown_details: 'uniquestring.md',
+  img_url: 'uniquestring.svg',
   doubloon: 10,
   xp: 45,
-  img_url: 'uniquestring.svg',
-  sample_input: 'x',
-  sample_output: 'y'
+  sample_input: 'Unique',
+  sample_output: 'true',
+  test_input: 'isThisUnique',
+  test_output: 'false',
+  function_name: 'isUnique'
 )
 Quest.create(
   title: 'Find Odd Integer',
-  qestion: 'Given an array of numbers, write a function to return the number that appears an odd number of times in the array. You can assume that there is only one number in the array that appears an odd number of times',
-  starter_code: 'function findOdd(arr) {}',
+  question: 'Given an array of numbers, write a function that returns the number that appears an odd number of times in the array. You can assume that there is only one number in the array that appears an odd number of times',
+  starter_code: '//write your answer in the function below\n function findOdd(arr) {\n}',
+  markdown_details: 'findoddinteger.md',
+  img_url: 'findoddinteger.svg',
   doubloon: 10,
   xp: 60,
-  img_url: 'findoddinteger.svg',
-  sample_input: 'x',
-  sample_output: 'y'
+  sample_input: '[1, 1, 2, 2, 3, 3, 3]',
+  sample_output: '3',
+  test_input: '[7, 7, 6, 6, 10, 10, 3, 3, 2, 2, 6, 6, 2, 2, 7, 7, 8, 8, 3, 3, 1, 1, 1]',
+  test_output: '1',
+  function_name: 'findOdd'
 )
 Quest.create(
-  title: 'Shift Array', question: 'Given an array, shift every element of the array to the left. Element at index 0 will be at the end of the array if shifted correctly',
-  starter_code: 'function shift(arr) {}',
+  title: 'Shift Array',
+  question: 'Given an array, return a shifted version of the array where every element if moved to the left by one index. The element at index 0 should be moved to the end of the array if shifted correctly',
+  starter_code: '//write your answer in the function below\n function shift(arr) {\n}',
+  markdown_details: 'shiftarray.md',
+  img_url: 'shiftarray.svg',
   doubloon: 20,
   xp: 100,
-  img_url: 'shiftarray.svg',
-  sample_input: 'x',
-  sample_output: 'y'
+  sample_input: '[1, 2, 3, 4, 5]',
+  sample_output: '[2, 3, 4, 5, 1]',
+  test_input: '[1, 2, 3, 4, 5, 6, 7, 8, 9, 0]',
+  test_output: '[2, 3, 4, 5, 6, 7, 8, 9, 0, 1]',
+  function_name: 'shift'
 )
 Quest.create(
   title: 'Count the Blue Eyed monkeys',
-  question: "Given an array of monkey objects, return al lthe monkey's names that have blue eyes",
-  starter_code: 'function blueEyedMonkeys(arr) {}',
+  question: "Given an array of monkey objects, return an array of the monkey's names that have blue eyes",
+  starter_code: '//write your answer in the function below\n function blueEyedMonkeys(arr) {\n}',
+  markdown_details: 'monkeys.md',
+  img_url: 'monkeys.svg',
   doubloon: 25,
   xp: 100,
-  img_url: 'monkeys.svg',
-  sample_input: 'x',
-  sample_output: 'y'
+  sample_input: "[{name: 'Bobo', eye_color: 'green'}, {name: 'Curious George', eye_color: 'blue'}, {name: 'Bubbles the Chimp', eye_color: 'blue'}, {name: 'Harambe', eye_color: 'brown'},], ",
+  sample_output: "['Curious George', 'Bubbles the Chimp']",
+  test_input: "[{name: 'Bobo', eye_color: 'green'}, {name: 'Curious George', eye_color: 'blue'}, {name: 'Bubbles the Chimp', eye_color: 'blue'}, {name: 'Harambe', eye_color: 'brown'},], ",
+  test_output: "['Curious George', 'Bubbles the Chimp']",
+  function_name: 'blueEyedMonkeys'
 )
 
 #===============================================
