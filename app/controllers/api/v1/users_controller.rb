@@ -4,7 +4,7 @@ class Api::V1::UsersController < ApplicationController
   def show
     token = request.headers['Authentication'].split(' ')[1]
     user = User.find(decode(token)['user_id'])
-    render json: { user: user, items: user.items }, status: :accepted
+    render json: user, include: [:items], status: :accepted
   end
 
   def create
@@ -19,7 +19,7 @@ class Api::V1::UsersController < ApplicationController
     else
       render json: {
         authenticated: false,
-        error_message: 'An error occured when creating your account, please try again',
+        error_message: 'An error occured when creating your account, please try again'
       }, status: :internal_server_error
     end
   end
