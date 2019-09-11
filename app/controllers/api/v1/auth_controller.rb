@@ -9,6 +9,7 @@ class Api::V1::AuthController < ApplicationController
       render json: {
         authenticated: true,
         user: @user,
+        include: [:items],
         token: token
       }, status: :accepted
     else
