@@ -2,8 +2,9 @@
 
 class Api::V1::UsersController < ApplicationController
   def show
-    token = request.headers["Authentication"].split(" ")[1]
-    render json: User.find(decode(token)["user_id"]), status: :accepted
+    token = request.headers['Authentication'].split(' ')[1]
+    user = User.find(decode(token)['user_id'])
+    render json: { user: user, items: user.items }, status: :accepted
   end
 
   def create
