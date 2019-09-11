@@ -19,7 +19,10 @@ Item.destroy_all
 Quest.create(
   title: 'Fibonacci Number',
   question: "Given a number 'n', write a function that computes the Nth fibonacci number",
-  starter_code: '//write your answer in the function below\n function fib(n) {\n}',
+  starter_code: '// write your solution in the function below
+function fib(n) {
+
+}',
   markdown_details: 'fib.md',
   img_url: 'fib.svg',
   doubloon: 200,
@@ -34,7 +37,10 @@ Quest.create(
 Quest.create(
   title: 'Paperfold Sequence',
   question: 'Given an integer n, write a function that will return the Nth paperfold sequence',
-  starter_code: '//write your answer in the function below\n function paperfold() {\n}',
+  starter_code: '// write your solution in the function below
+function paperfold(n) {
+
+}',
   markdown_details: 'paperfold.md',
   img_url: 'paperfold.svg',
   doubloon: 60,
@@ -49,7 +55,10 @@ Quest.create(
 Quest.create(
   title: 'Unique String',
   question: 'Given a string, write a function that returns true if all of its characters are unique, otherwise return false.',
-  starter_code: '//write your answer in the function below\n function isUnique(str) {\n}',
+  starter_code: '// write your solution in the function below
+function isUnique(str) {
+
+}',
   markdown_details: 'uniquestring.md',
   img_url: 'uniquestring.svg',
   doubloon: 10,
@@ -63,7 +72,10 @@ Quest.create(
 Quest.create(
   title: 'Find Odd Integer',
   question: 'Given an array of numbers, write a function that returns the number that appears an odd number of times in the array. You can assume that there is only one number in the array that appears an odd number of times',
-  starter_code: '//write your answer in the function below\n function findOdd(arr) {\n}',
+  starter_code: '// write your solution in the function below
+function findOdd(arr) {
+
+}',
   markdown_details: 'findoddinteger.md',
   img_url: 'findoddinteger.svg',
   doubloon: 10,
@@ -77,7 +89,10 @@ Quest.create(
 Quest.create(
   title: 'Shift Array',
   question: 'Given an array, return a shifted version of the array where every element if moved to the left by one index. The element at index 0 should be moved to the end of the array if shifted correctly',
-  starter_code: '//write your answer in the function below\n function shift(arr) {\n}',
+  starter_code: '// write your solution in the function below
+function shift(arr) {
+
+}',
   markdown_details: 'shiftarray.md',
   img_url: 'shiftarray.svg',
   doubloon: 20,
@@ -91,7 +106,10 @@ Quest.create(
 Quest.create(
   title: 'Count the Blue Eyed monkeys',
   question: "Given an array of monkey objects, return an array of the monkey's names that have blue eyes",
-  starter_code: '//write your answer in the function below\n function blueEyedMonkeys(arr) {\n}',
+  starter_code: '// write your solution in the function below
+function blueEyedMonkeys(arr) {
+  
+}',
   markdown_details: 'monkeys.md',
   img_url: 'monkeys.svg',
   doubloon: 25,
