@@ -1,6 +1,17 @@
 # frozen_string_literal: true
 
 class Api::V1::UsersController < ApplicationController
+
+  def index 
+    users = User.all
+    sorted_users = users.sort_by {|user| user.xp}
+    render json: sorted_users
+  end 
+
+
+
+
+
   def show
     token = request.headers['Authentication'].split(' ')[1]
     user = User.find(decode(token)['user_id'])
