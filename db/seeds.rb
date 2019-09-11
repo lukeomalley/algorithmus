@@ -46,9 +46,9 @@ function paperfold(n) {
   doubloon: 60,
   xp: 1240,
   sample_input: '3',
-  sample_output: '[1,1,0,1,1,0,0,1,1,1,0,0,1,0,0]',
-  test_input: '4',
-  test_output: '[1,1,0,1,1,0,0,1,1,1,0,0,1,0,0,1,1,1,0,1,1,0,0,0,1,1,0,0,1,0,0]',
+  sample_output: '[1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0]',
+  test_input: '3',
+  test_output: '1,1,0,1,1,0,0,1,1,1,0,0,1,0,0',
   function_name: 'paperfold'
 )
 
@@ -63,9 +63,9 @@ function isUnique(str) {
   img_url: 'uniquestring.svg',
   doubloon: 10,
   xp: 45,
-  sample_input: 'Unique',
-  sample_output: 'true',
-  test_input: 'isThisUnique',
+  sample_input: "'unique'",
+  sample_output: 'false',
+  test_input: "'isThisUnique'",
   test_output: 'false',
   function_name: 'isUnique'
 )
