@@ -108,7 +108,7 @@ Quest.create(
   question: "Given an array of monkey objects, return an array of the monkey's names that have blue eyes",
   starter_code: '// write your solution in the function below
 function blueEyedMonkeys(arr) {
-  
+
 }',
   markdown_details: 'monkeys.md',
   img_url: 'monkeys.svg',
