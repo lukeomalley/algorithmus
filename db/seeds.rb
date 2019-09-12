@@ -17,7 +17,7 @@ Item.destroy_all
 #===============================================
 
 Quest.create(
-  title: 'Fibonacci Number',
+  title: 'Fibonacci Sequence',
   question: "Given a number 'n', write a function that computes the Nth fibonacci number",
   starter_code: '// write your solution in the function below
 function fib(n) {
@@ -142,7 +142,7 @@ User.create(username: 'luke', password: 'luke', doubloon: 1000, xp: 100, avatar_
 #===============================================
 Item.create(
   name: 'mechanical keyboard',
-  img_url: 'https://cdn.dribbble.com/users/96405/screenshots/521390/keyboard_final_01.png',
+  img_url: 'https://cdn.shopify.com/s/files/1/0071/6072/5540/products/Dareu_EK925_RGB_Mechanical_Keyboard-1_800x.png?v=1563256875',
   cost: 100,
   description: 'enhances your fingers with the powers of the monkey',
   power_rating: 10
@@ -150,7 +150,7 @@ Item.create(
 
 Item.create(
   name: 'noise-cancelling headphones',
-  img_url: 'https://cdn4.iconfinder.com/data/icons/random-8-bit-pixel/512/headphone-512.png',
+  img_url: 'https://www.urbanista.com/media/catalog/product/cache/526649dc43a582f1e345c3396ec367d5/3/1/31928_1_2.png',
   cost: 200,
   description: 'quites the world around you to increase your focus',
   power_rating: 35
@@ -158,15 +158,15 @@ Item.create(
 
 Item.create(
   name: 'mittens of the boar',
-  img_url: 'https://cdn.shopify.com/s/files/1/0822/1983/articles/winter-mitts-pixel-art-pixel-art-winter-mitts-mittens-gloves-mitts-pixel-8bit.png?v=1501253969',
+  img_url: 'https://d3o2e4jr3mxnm3.cloudfront.net/Wild-Plum-Fingerless-Mittens_46525_2_lg.png',
   cost: 50,
   description: 'keeps your fingers warm to increase your agility',
   power_rating: 5
 )
 
 Item.create(
-  name: 'ViewSonic VA2759-SMH 27 Inch IPS 1080P Frameless LED Monitor with HDMI and VGA inputs',
-  img_url: 'http://pixelartmaker.com/art/5ce2ba57d25e7ee.png',
+  name: 'ViewSonic VA2759-SMH 27 Inch IPS 1080P',
+  img_url: 'https://www.viewsonic.com/media/catalog/product/cache/7/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/v/a/va2759-smh_front_hires.png',
   cost: 250,
   description: 'double the screen double the programming power',
   power_rating: 45
@@ -174,25 +174,25 @@ Item.create(
 
 Item.create(
   name: 'ultra-wide monitor',
-  img_url: 'https://pinupsandpixels.com/wp-content/uploads/2018/11/tvpyxel.png',
+  img_url: 'https://www.lenovo.com/medias/P44W-feature-4.png?context=bWFzdGVyfC9lbWVhL2ltYWdlcy9hY2Nlc3Nvcmllcy9tb25pdG9ycy98ODg4NzV8aW1hZ2UvcG5nfC9lbWVhL2ltYWdlcy9hY2Nlc3Nvcmllcy9tb25pdG9ycy9oNjgvaDIzLzk5MDE2MTg4ODg3MzQucG5nfDEyMzlmMjQxNzExZGU4OWQ3ZTJiYWE2ZWFmNTRlODg4MDU1YjYxMDMwOTc1ODkxYzMxMGFiNmMyZWNiZmYyMWQ',
   cost: 500,
   description: 'this powerful artifact enhances your fingers with the powers of the monkey',
   power_rating: 100
 )
 
 Item.create(
-  name: 'algorithm whiteboard of the owl',
-  img_url: 'https://thumbs.dreamstime.com/t/pixel-art-image-businessman-giving-presentation-74497721.jpg',
+  name: 'algorithm chalk of the owl',
+  img_url: 'https://cdn.pixabay.com/photo/2015/09/26/19/25/blackboard-959608_960_720.png',
   cost: 1000,
   description: 'a dojo to master the algorithms',
   power_rating: 100
 )
 
 Item.create(
-  name: 'dry erase marker of the whale',
-  img_url: 'https://s3.amazonaws.com/preview.thegamecrafter.com/C0DDAF3E-BBEE-11E5-87C5-7AAFB234A805.png',
+  name: 'multicolor-chalk',
+  img_url: 'http://www.pngplay.com/wp-content/uploads/2/Chalk-Colorful-Transparent-Background.png',
   cost: 100,
-  description: 'a dry-erase marker, uses an erasable ink, made to be used on a slick (or matte-finished), non-porous writing surface, for temporary writing with overhead projectors, whiteboards, and the like.',
+  description: 'the best chalk that you will ever hold in your algorithmic hands',
   power_rating: 100
 )
 
