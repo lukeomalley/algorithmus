@@ -32,5 +32,4 @@ class Api::V1::AuthController < ApplicationController
       except: %i[created_at updated_at password_digest]
     }
   end
-
 end

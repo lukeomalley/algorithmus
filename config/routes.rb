@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       get '/profile', to: 'users#show'
       post '/login', to: 'auth#create'
       post '/signup', to: 'users#create'
+      post '/solved', to: 'solved_quests#create'
       resources :lockers
       resources :items
       resources :solved_quests
